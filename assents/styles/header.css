@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+.container, #header .container{
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #727272;
+}
+.active a,
+nav a:hover {
+  background-color: #39aae1;
+  color: white;
+}
