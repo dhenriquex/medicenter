@@ -1,0 +1,41 @@
+#geral{
+    display: flex;
+    justify-content: center;
+    section{
+        flex: 2;
+        align-self: self-start;
+    }
+    aside{
+        flex: 1;
+        align-self: self-start;
+    }
+    height: 100vh;
+}
+
+.widget-title{
+    margin: 30px 0 20px 0;
+    hr{
+        background-color: #39aae1;
+        width: 50px;
+        height: 3px;
+        border: none;
+        margin-top: 10px;
+    }
+}
+.widget-title-text{
+    color: black;
+    font-size:21px ;
+    font-weight: bold;
+}
+.text{
+    box-shadow: 0 1px #727272;
+    padding-bottom:20px;
+}
+.contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:  20px 0;
+    box-shadow: 0 1px #727272;
+}
