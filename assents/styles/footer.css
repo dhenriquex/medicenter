@@ -57,6 +57,7 @@ footer .widget-title-text {
 #info {
   color: #5c5c5c;
   font-size: 12px;
+  line-height: 18px;
   padding-right: 10px;
 
 }
@@ -74,4 +75,12 @@ footer .widget-title-text {
     border-radius: 100%;
     margin-right: 8px;
     color: #9c9c9c;
+}
+.comentarios li{
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 18px;
+    strong{
+        color: #39aae1;
+    }
 }
