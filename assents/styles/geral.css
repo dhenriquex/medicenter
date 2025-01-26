@@ -1,6 +1,7 @@
 #geral{
     display: flex;
     justify-content: center;
+    
     section{
         flex: 2;
         align-self: self-start;
@@ -10,7 +11,6 @@
         align-self: self-start;
         color: #1c1c1c;
     }
-    
 }
 
 .widget-title{
