@@ -1,0 +1,42 @@
+article .news-data {
+  display: flex;
+}
+article .news-posted {
+  color: white;
+  font-size: 12;
+  background-color: #2b4c99;
+  padding: 10px;
+  margin-right: 2px;
+}
+article .news-coment {
+  color: white;
+  font-size: 12;
+  background-color: #39aae1;
+  padding: 10px;
+}
+article .thunbnail{
+    margin-top: 10px;
+}
+article .thunbnail img{
+    width: 100%;
+    height: auto;
+}
+article .news-title{
+    margin: 20px 0;
+    font-size: 25px;
+}
+article .resumo{
+    line-height: 21px;
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
